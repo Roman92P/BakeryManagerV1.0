@@ -13,9 +13,6 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>bakery_shark</name>
     <description>Bakery Manager</description>
-    <properties>
-        <java.version>13</java.version>
-    </properties>
     <dependencies>
         <dependency>
             <groupId>commons-io</groupId>
