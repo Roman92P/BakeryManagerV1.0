@@ -44,7 +44,7 @@ public class Ingredient {
     }
 
     @OnDelete(action = OnDeleteAction.CASCADE)
-    @OneToMany( mappedBy = "ingredients", fetch = FetchType.EAGER)
+    @OneToMany( mappedBy = "ingredients")
     private Set<RecipeItem> recipes=new HashSet<>();
 
 }

@@ -31,7 +31,7 @@ public class Recipe {
     @OneToMany(mappedBy = "recipe",fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     private Set<RecipeItem> recipeItemList = new HashSet<>();
 
-    @OneToMany(mappedBy = "recipe", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "recipe", cascade = CascadeType.ALL)
     private Set<Product> products = new HashSet<>();
 
     public Recipe() {
